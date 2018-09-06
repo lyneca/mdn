@@ -4,6 +4,12 @@ A script to manage markdown notes!
 
 ## Installing
 
+### Arch Linux
+
+`mdn` is available on the AUR.
+
+### Manual
+
 Copy or clone this, then put or link `mdn` to somewhere in your $PATH.
 
 ## Usage
