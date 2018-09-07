@@ -40,7 +40,7 @@ function pdf {
     pandoc \
         --katex \
         --self-contained \
-        --from=markdown+tex_math_dollars \
+        --from=markdown+tex_math_dollars+emoji \
         -t html \
         --css "$MDN_CSS_FILE" \
         -o "${1%.*}.pdf" \
