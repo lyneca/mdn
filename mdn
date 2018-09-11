@@ -38,7 +38,7 @@ function link {
 
 function pdf {
     pandoc \
-        --katex \
+        --katex=$HOME/.local/share/katex/ \
         --self-contained \
         --from=markdown+tex_math_dollars+emoji \
         -t html \
