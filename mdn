@@ -10,10 +10,11 @@ function mk_note_dir {
 function del {
     echo ":: Delete note \"$1\"? (yn)"
     echo -n "> "
-    read yn
+    read -n 1 yn
     if [ $yn = "y" ]; then
         rm "$HOME/.mdn/$1.md"
     fi
+    echo
 }
 
 function list {
